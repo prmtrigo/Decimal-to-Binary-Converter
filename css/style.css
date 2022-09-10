@@ -6,6 +6,7 @@
     --vscode-blue: #3c98d5;
     --vscode-yellow: #c29550;
     --vscode-grey: #1e1e1e;
+    --vscode-red: #86401e;
 }
 
 *{
@@ -70,5 +71,5 @@ input{
 #error-msg{
     text-align: center;
     margin-top: 1.25em;
-    color: var(--vscode-pink);
+    color: var(--vscode-red);
 }
