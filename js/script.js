@@ -19,5 +19,11 @@ binInp.addEventListener("input", () => {
     let binValue = binInp.value;
 
     //Converting binary number If the number is valid
-    if(binaryValidator(binValue))
+    if(binaryValidator(binValue)){
+
+    }
+    //display error if number is not valid
+    else{
+        
+    }
 });
