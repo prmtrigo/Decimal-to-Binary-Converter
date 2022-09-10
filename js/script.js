@@ -22,8 +22,18 @@ binInp.addEventListener("input", () => {
     if(binaryValidator(binValue)){
 
     }
-    //display error if number is not valid
+    //display error message
     else{
-        
+
     }
+
+    //Check if the Binary is number 
+    function binaryValidator(num){
+        for(let i = 0; i < num.length; i++){
+            if(num[i]!="0" && num[i]!="1"){
+                return false;
+            }
+        }
+    }
+    return true;
 });
